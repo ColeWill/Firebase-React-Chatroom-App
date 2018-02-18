@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>React Chatroom</title>
+</head>
+<body>
+	<div id="app"></div>
+
+	<script src="https://www.gstatic.com/firebasejs/4.10.0/firebase.js"></script>
+	<script>
+	  // Initialize Firebase
+		  var config = {
+		    apiKey: "AIzaSyAu2td8UJ-Qml_FbGeYM2WMnuzJ_M-Xxb0",
+		    authDomain: "react-chatroom-99d16.firebaseapp.com",
+		    databaseURL: "https://react-chatroom-99d16.firebaseio.com",
+		    projectId: "react-chatroom-99d16",
+		    storageBucket: "react-chatroom-99d16.appspot.com",
+		    messagingSenderId: "123868364349"
+		  };
+		  firebase.initializeApp(config);
+	</script>
+	<!-- imports the bundle , executes the react code-->  
+	<script type="text/javascript" src="build/bundle.js"></script>
+</body>
+</html>
